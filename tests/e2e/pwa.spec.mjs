@@ -13,7 +13,7 @@ test("service worker script contains core cached assets", async ({ page }) => {
   const res = await page.request.get("/service-worker.js");
   expect(res.ok()).toBe(true);
   const body = await res.text();
-  expect(body).toContain("CACHE_VERSION = \"v3\"");
+  expect(body).toContain("CACHE_VERSION = \"v4\"");
   expect(body).toContain("natan-body-parts-");
   expect(body).toContain("./assets/images/natan-face.png");
   expect(body).toContain("./assets/voice/nose.mp3");
