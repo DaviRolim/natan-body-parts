@@ -17,6 +17,12 @@ export default defineConfig({
       use: {
         ...devices["iPhone 14 landscape"]
       }
+    },
+    {
+      name: "Mobile Safari portrait",
+      use: {
+        ...devices["iPhone 14"]
+      }
     }
   ]
 });
