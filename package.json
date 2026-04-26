@@ -8,6 +8,7 @@
     "build": "vite build && cp -R assets dist/",
     "preview": "vite preview --host",
     "voiceover:generate": "node scripts/generate-voiceover.mjs",
+    "voiceover:local": "node scripts/generate-local-voiceover.mjs",
     "icons:generate": "node scripts/make-icons.mjs",
     "test": "node --test $(find tests/unit -name '*.test.js' | sort)",
     "test:e2e": "playwright test"
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@playwright/test": "^1.49.0",
     "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.3.0",
     "sharp": "^0.33.5",
     "vite": "^5.4.10"
   }
