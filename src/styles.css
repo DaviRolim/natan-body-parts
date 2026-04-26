@@ -1,0 +1,24 @@
+:root {
+  --bg-warm: #f7b267;
+  --bg-soft: #ffe8c7;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg-soft);
+  color: #3d2b1f;
+  font-family: system-ui, -apple-system, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+#face-game {
+  min-height: 100vh;
+}
