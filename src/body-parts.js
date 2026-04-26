@@ -24,8 +24,8 @@ export const BODY_PARTS = [
     id: "ears",
     englishWord: "Ears",
     voicePath: "assets/voice/ears.mp3",
-    zone: { left: 5, top: 49, width: 90, height: 31 },
-    highlight: { left: 6, top: 52, width: 88, height: 25 }
+    zone: { left: 6, top: 53, width: 22, height: 28 },
+    highlight: { left: 6, top: 53, width: 22, height: 28 }
   },
   {
     id: "hair",
