@@ -3,35 +3,35 @@ export const BODY_PARTS = [
     id: "eyes",
     englishWord: "Eyes",
     voicePath: "assets/voice/eyes.mp3",
-    zone: { left: 29, top: 30, width: 42, height: 18 },
-    highlight: { left: 34, top: 33, width: 32, height: 11 }
+    zone: { left: 28, top: 39, width: 48, height: 22 },
+    highlight: { left: 30, top: 42, width: 44, height: 16 }
   },
   {
     id: "nose",
     englishWord: "Nose",
     voicePath: "assets/voice/nose.mp3",
-    zone: { left: 41, top: 43, width: 18, height: 20 },
-    highlight: { left: 44, top: 46, width: 12, height: 14 }
+    zone: { left: 43, top: 52, width: 18, height: 18 },
+    highlight: { left: 45, top: 55, width: 14, height: 12 }
   },
   {
     id: "mouth",
     englishWord: "Mouth",
     voicePath: "assets/voice/mouth.mp3",
-    zone: { left: 35, top: 58, width: 30, height: 16 },
-    highlight: { left: 39, top: 61, width: 22, height: 9 }
+    zone: { left: 34, top: 66, width: 36, height: 18 },
+    highlight: { left: 38, top: 69, width: 28, height: 12 }
   },
   {
     id: "ears",
     englishWord: "Ears",
     voicePath: "assets/voice/ears.mp3",
-    zone: { left: 13, top: 35, width: 74, height: 23 },
-    highlight: { left: 12, top: 38, width: 76, height: 17 }
+    zone: { left: 5, top: 49, width: 90, height: 31 },
+    highlight: { left: 6, top: 52, width: 88, height: 25 }
   },
   {
     id: "hair",
     englishWord: "Hair",
     voicePath: "assets/voice/hair.mp3",
-    zone: { left: 26, top: 8, width: 48, height: 24 },
-    highlight: { left: 28, top: 12, width: 44, height: 16 }
+    zone: { left: 14, top: 4, width: 72, height: 34 },
+    highlight: { left: 17, top: 7, width: 66, height: 27 }
   }
 ];
