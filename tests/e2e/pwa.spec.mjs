@@ -1,11 +1,11 @@
 import { test, expect } from "@playwright/test";
 
-test("manifest is reachable and configured for landscape standalone use", async ({ page }) => {
+test("manifest is reachable and configured for standalone use in any orientation", async ({ page }) => {
   const res = await page.request.get("/manifest.webmanifest");
   expect(res.ok()).toBe(true);
   const manifest = await res.json();
   expect(manifest.display).toBe("standalone");
-  expect(manifest.orientation).toBe("landscape");
+  expect(manifest.orientation).toBe("any");
   expect(manifest.icons).toHaveLength(2);
 });
 

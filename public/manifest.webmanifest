@@ -3,7 +3,7 @@
   "short_name": "Natan Nose",
   "start_url": ".",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "any",
   "background_color": "#ffe8c7",
   "theme_color": "#f7b267",
   "icons": [
